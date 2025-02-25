@@ -181,3 +181,5 @@ source /home/ubuntu/miniconda3/bin/activate my_env
 python /home/ubuntu/my_metaflow_script.py >> /var/log/my_daemon.log 2>&1
 
 echo "Execution Completed at $(date)" >> /var/log/my_daemon.log
+
+chmod +x /usr/local/bin/my_daemon.sh
